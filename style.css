@@ -1,0 +1,40 @@
+*{
+    background-color: black;
+
+}
+.container{
+    background-color: hsl(271, 60%, 68%);
+    
+    color: wheat;
+    text-align: center;
+    justify-content: center;
+    /* height: 500px;
+    width: 500px; */
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#input{
+    font-size: 22px;
+    color: rgb(228, 11, 160);
+    text-align: center;
+    margin: 10px;
+}
+#btn{
+    color: black;
+    background-color: rgb(22, 225, 157);
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 5px;
+cursor: pointer;
+&:hover{
+    background-color: aqua;
+}
+}
+#diceimg img{
+width: 200px;
+}
+#dice{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
